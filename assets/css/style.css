@@ -6,6 +6,22 @@
     {
         padding-bottom: 20px;
     }
+    .top-head-mobile-view{
+        font-size: 10px !important;
+    }
+    .mobile-height{
+        height: 30px !important;
+    }
+    .brand-mobile{
+        width: 100%;
+        max-width: 100px !important;
+        max-height: 40px !important;
+        object-fit: cover;
+        object-position: center center;
+        display: block;
+        margin-inline: auto;
+        padding-bottom: 10px !important;
+    }
 }
 @media screen and (min-width: 576px){
     .shadow-header{
@@ -19,6 +35,15 @@
     font-size: 13px;
     font-weight: 600;
     padding-inline: 0px;
+}
+.brand-logo{
+    width: 100%;
+    max-width: 160px;
+    max-height: 50px;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+    margin-inline: auto;
 }
 .navBtn:hover{
     color:#1534c0;
