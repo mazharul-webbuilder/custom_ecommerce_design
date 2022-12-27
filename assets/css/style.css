@@ -2,6 +2,15 @@
     .mobile-v-control{
         display: none;
     }
+    .mobile-header-icons
+    {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 576px){
+    .shadow-header{
+        box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 9%) !important;
+    }
 }
 
 .navBtn{
