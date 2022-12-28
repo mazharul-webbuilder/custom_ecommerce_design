@@ -53,7 +53,18 @@
 .navBtn:hover{
     color:#1534c0;
 }
+.header-search-icon{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+.header-search-icon:hover{
+    color: white;
+}
+.search-icon{
 
+}
 .navIconBtn{
     color:black;
 }
