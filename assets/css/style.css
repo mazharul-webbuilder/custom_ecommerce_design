@@ -33,6 +33,12 @@
         box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 9%) !important;
     }
 }
+@media screen and (max-width: 490px){
+
+    .mobile-head-res{
+        margin-left: -60px;
+    }
+}
 
 .navBtn{
     font-family: Source Sans Pro,sans-serif;
