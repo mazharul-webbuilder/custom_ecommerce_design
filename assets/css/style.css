@@ -1,4 +1,8 @@
 @media screen and (max-width: 575px){
+    .search-mob{
+        height: 35px;
+        font-size: 12px;
+    }
     .mobile-v-control{
         display: none;
     }
@@ -38,6 +42,10 @@
     .mobile-head-res{
         margin-left: -60px;
     }
+}
+.search-mob{
+    height: 40px;
+    font-size: 16px;
 }
 
 .navBtn{
