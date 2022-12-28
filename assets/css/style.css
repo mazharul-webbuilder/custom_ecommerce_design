@@ -12,6 +12,11 @@
     .mobile-height{
         height: 30px !important;
     }
+    .mobile-head-res{
+        color: #ffffff;
+        margin-top: -54px;
+        margin-left: -99px;
+    }
     .brand-mobile{
         width: 100%;
         max-width: 100px !important;
