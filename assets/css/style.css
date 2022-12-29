@@ -1,53 +1,14 @@
-@media screen and (max-width: 575px){
-    .search-mob{
-        height: 35px;
-        font-size: 12px;
-    }
-    .mobile-v-control{
-        display: none;
-    }
-    .mobile-header-icons
-    {
-        padding-bottom: 20px;
-    }
-    .top-head-mobile-view{
-        font-size: 10px !important;
-    }
-    .mobile-height{
-        height: 30px !important;
-    }
-    .mobile-head-res{
-        color: #ffffff;
-        margin-top: -54px;
-        margin-left: -99px;
-    }
-    .brand-mobile{
-        width: 100%;
-        max-width: 100px !important;
-        max-height: 40px !important;
-        object-fit: cover;
-        object-position: center center;
-        display: block;
-        margin-inline: auto;
-        padding-bottom: 10px !important;
-    }
-}
-@media screen and (min-width: 576px){
-    .shadow-header{
-        box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 9%) !important;
-    }
-}
-@media screen and (max-width: 490px){
 
-    .mobile-head-res{
-        margin-left: -60px;
-    }
-}
 .search-mob{
     height: 40px;
     font-size: 16px;
 }
-
+.s-height{
+    min-height: 45px;
+}
+.font-22{
+    font-size: 22px;
+}
 .navBtn{
     font-family: Source Sans Pro,sans-serif;
     font-style: normal;
@@ -125,7 +86,80 @@
     text-decoration: none;
 }
 
+.blog-head{
+    color: black;
+    font-size: 70px;
+}
+.blogs-div{
+    margin: 0 18px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+.blog-main-div{
+    margin: 0 18px;
+}
+.font-size-badge{
+    font-size: 1.25em;
+}
+.blog-asertp{
+    font-size: 15px;
+    text-align: justify;
+}
 
+@media screen and (max-width: 320px){
+    .mobile-head-res{
+        margin-left: -48px;
+    }
+}
+@media screen and (max-width: 575px){
+    .search-mob{
+        height: 35px;
+        font-size: 12px;
+    }
+    .mobile-v-control{
+        display: none;
+    }
+    .mobile-header-icons
+    {
+        padding-bottom: 20px;
+    }
+    .top-head-mobile-view{
+        font-size: 10px !important;
+    }
+    .mobile-height{
+        height: 30px !important;
+    }
+    .mobile-head-res{
+        color: #ffffff;
+        margin-top: -54px;
+        margin-left: -99px;
+    }
+    .brand-mobile{
+        width: 100%;
+        max-width: 100px !important;
+        max-height: 40px !important;
+        object-fit: cover;
+        object-position: center center;
+        display: block;
+        margin-inline: auto;
+        padding-bottom: 10px !important;
+    }
+}
+@media screen and (min-width: 576px){
+    .shadow-header{
+        box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 9%) !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .blog-head{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 490px){
 
+    .mobile-head-res{
+        margin-left: -60px;
+    }
+}
 
 
