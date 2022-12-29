@@ -105,9 +105,27 @@
 .font-size-badge{
     font-size: 1.25em;
 }
+.blog-detail-badge{
+    font-size: 20px;
+    border-radius: 1.3rem !important;
+
+}
 .blog-asertp{
     font-size: 15px;
     text-align: justify;
+}
+.font-18{
+    font-size: 18px;
+    text-align: justify;
+}
+.blog-social{
+   list-style: none;
+    text-align: center;
+    margin-top: 100px;
+}
+.blog-social li{
+    display: inline;
+    padding: 5px;
 }
 
 @media screen and (max-width: 320px){
