@@ -86,6 +86,10 @@
     text-decoration: none;
 }
 
+.blog-top-section{
+    background-image: url("blog_banner.jpg");
+    background-color: gray;
+}
 .blog-head{
     color: black;
     font-size: 70px;
@@ -153,6 +157,13 @@
 @media screen and (max-width: 767px){
     .blog-head{
         font-size: 40px;
+    }
+    .blog-top-section{
+        max-height: 140px;
+    }
+    .blog-head{
+        font-size: 40px;
+        padding-top: 36px;
     }
 }
 @media screen and (max-width: 490px){
