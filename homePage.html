@@ -63,11 +63,12 @@
                 <div class="col-sm-7">
                     <div class="row">
                         <div class="input-group mb-1 mt-2">
-                            <input type="text" class="form-control shadow-none" style="height:40px; font-size: 16px;"
+                            <input type="text" class="form-control shadow-none search-mob"
                                    placeholder="Search your products" aria-label="Search your products" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                  <span class="input-group-text rounded-right" style="background: none" id="basic-addon2">
-                                      <a href="#"><i style="font-size: 30px;" class="fa fa-search navIconBtn" aria-hidden="true"></i>
+                            <div class="input-group-append" style="height: 40px">
+                                  <span class="input-group-text rounded-right" style="background: black;" id="basic-addon2">
+                                      <a href="#" class="header-search-icon">
+                                          <i class="fa fa-search search-icon" aria-hidden="true"></i>
                                       </a>
                                   </span>
                             </div>
@@ -181,7 +182,7 @@
                     <!--end nav for mobile screen-->
                 </div>
 
-                <div class="col-sm-3 ps-0 mobile-header-icons" style="color: #ffffff;">
+                <div class="col-sm-3 ps-0 mobile-header-icons mobile-head-res" style="color: #ffffff;">
 
                     <div class="row mt-2 me-2 d-flex">
                         <div class="col text-right">
@@ -216,146 +217,146 @@
             </div>
     </div>
 </header>
-<div class="row">
+<div class="" style="padding: 0 30px">
+    <div class="row">
+        <div style=" background-color:#dcdbdb;">
+            <!--slider for promotion/ banners/ sales-->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!--1st image of slider-->
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="image/slider_1.jpg" class="d-block banner-image" alt="...">
+                        <!-- <div class="carousel-caption d-block" style="font-family: Source Sans Pro,sans-serif;">
+                            <h5 style="font-size: 24px;">First slide label</h5>
+                            <p style="font-size: 16px;">Some representative placeholder content for the first slide.</p>
+                            <a style="width: 100px;" class="btn btn-primary">Go</a>
+                        </div> -->
+                    </div>
 
-    <div style=" background-color:#dcdbdb;">
 
-        <!--slider for promotion/ banners/ sales-->
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <!--1st image of slider-->
-                <div class="carousel-item active" data-bs-interval="4000">
-                    <img src="image/slider_1.jpg" class="d-block banner-image" alt="...">
-                    <!-- <div class="carousel-caption d-block" style="font-family: Source Sans Pro,sans-serif;">
-                        <h5 style="font-size: 24px;">First slide label</h5>
-                        <p style="font-size: 16px;">Some representative placeholder content for the first slide.</p>
-                        <a style="width: 100px;" class="btn btn-primary">Go</a>
-                    </div> -->
+                    <!--2nd image of slider-->
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="image/slider_2.jpg" class="d-block banner-image" alt="...">
+                        <!-- <div class="carousel-caption d-block" style="font-family:Source Sans Pro,sans-serif;">
+                            <h5 style="font-size: 24px;">Second slide label</h5>
+                            <p style="font-size: 16px;">Some representative placeholder content for the first slide.</p>
+                            <a style="width: 100px;" class="btn btn-primary">Get</a>
+                        </div> -->
+                    </div>
+
+
+                    <!--3rd image of slider-->
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="image/slider_3.jpg" class="d-block banner-image" alt="...">
+                        <!-- <div class="carousel-caption d-block" style="font-family: Source Sans Pro,sans-serif;">
+                            <h5 style="font-size: 24px;">Third slide label</h5>
+                            <p style="font-size: 16px;">Some representative placeholder content for the first slide.</p>
+                            <a style="width: 100px;" class="btn btn-primary">Go</a>
+                        </div> -->
+                    </div>
+
+
                 </div>
-
-
-                <!--2nd image of slider-->
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src="image/slider_2.jpg" class="d-block banner-image" alt="...">
-                    <!-- <div class="carousel-caption d-block" style="font-family:Source Sans Pro,sans-serif;">
-                        <h5 style="font-size: 24px;">Second slide label</h5>
-                        <p style="font-size: 16px;">Some representative placeholder content for the first slide.</p>
-                        <a style="width: 100px;" class="btn btn-primary">Get</a>
-                    </div> -->
-                </div>
-
-
-                <!--3rd image of slider-->
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src="image/slider_3.jpg" class="d-block banner-image" alt="...">
-                    <!-- <div class="carousel-caption d-block" style="font-family: Source Sans Pro,sans-serif;">
-                        <h5 style="font-size: 24px;">Third slide label</h5>
-                        <p style="font-size: 16px;">Some representative placeholder content for the first slide.</p>
-                        <a style="width: 100px;" class="btn btn-primary">Go</a>
-                    </div> -->
-                </div>
-
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <!--end slider for promotion/ banner/ sales-->
+
+
         </div>
-
-        <!--end slider for promotion/ banner/ sales-->
-
-
     </div>
-
 </div>
-
 <!--3rd row what are our values section-->
 <section class=" py-5">
-    <div class="row" style="font-family: Source Sans Pro,sans-serif;">
+    <div class="" style="padding: 0 30px">
+        <div class="row" style="font-family: Source Sans Pro,sans-serif;">
 
-        <div class="row p-0 m-0">
-            <div class="feature-heading py-5 pb-4">
-                <h1 class="text-center">What are our values</h1>
-            </div>
-            <!--1st column-->
-            <div class="col-sm-4 pt-4 px-3 pb-4 border-bottom shadow">
-                <div class=" mt-4 text-center">
-                    <img class="values-banner-img" src="image/chocolate_1.jpg">
+            <div class="row p-0 m-0">
+                <div class="feature-heading py-5 pb-4">
+                    <h1 class="text-center" style="padding-bottom: 30px">What are our values</h1>
                 </div>
-                <div class=" mt-4 text-center px-4 mx-3">
-                    <p style="text-align:center; font-size: 14px;">
-                        Product Description<br/><br/>
-                        Your product description, or product copy,
-                        outlines your product’s features and tells
-                        shoppers why they should buy it. A great
-                        product description indicates what the
-                        product is and what it does while enticing
-                        the reader to make a purchase.
-                    </p>
-                    <br/>
-                    <div class="pb-md-5">
-                        <a class="btn btn-white border border-dark details-btn" href="#">
-                            <p class=" mb-0 p-0" style="margin-top: 5px;"> Details Information </p>
-                        </a>
+                <!--1st column-->
+                <div class="col-sm-4 pt-4 px-3 pb-4 border-bottom shadow">
+                    <div class=" mt-4 text-center">
+                        <img class="values-banner-img" src="image/chocolate_1.jpg">
+                    </div>
+                    <div class=" mt-4 text-center px-4 mx-3">
+                        <p style="text-align:center; font-size: 14px;">
+                            Product Description<br/><br/>
+                            Your product description, or product copy,
+                            outlines your product’s features and tells
+                            shoppers why they should buy it. A great
+                            product description indicates what the
+                            product is and what it does while enticing
+                            the reader to make a purchase.
+                        </p>
+                        <br/>
+                        <div class="pb-md-5">
+                            <a class="btn btn-white border border-dark details-btn" href="#">
+                                <p class=" mb-0 p-0" style="margin-top: 5px;"> Details Information </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--2nd column-->
+                <div class="col-sm-4 pt-4 px-3 py-3 border border-top-0 mx-0 shadow">
+                    <div class=" mt-4 text-center">
+                        <img class="values-banner-img" src="image/chocolate_2.jpg">
+                    </div>
+                    <div class=" mt-4 text-center px-4 mx-3">
+                        <p style="text-align:center; font-size: 14px;">
+                            Product Description<br/><br/>
+                            Your product description, or product copy,
+                            outlines your product’s features and tells
+                            shoppers why they should buy it. A great
+                            product description indicates what the
+                            product is and what it does while enticing
+                            the reader to make a purchase.
+                        </p>
+                        <br/>
+                        <div class="pb-md-5">
+                            <a class="btn btn-white border border-dark details-btn" href="#">
+                                <p class=" mb-0 p-0" style="margin-top: 5px;"> Details Information </p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--3rd column-->
+                <div class="col-sm-4 pt-4 px-3 py-3 shadow">
+                    <div class=" mt-4 text-center">
+                        <img class="values-banner-img" src="image/chocolate_3.jpg">
+                    </div>
+                    <div class=" mt-4 text-center px-4 mx-3">
+                        <p style="text-align:center; font-size: 14px;">
+                            Product Description<br/><br/>
+                            Your product description, or product copy,
+                            outlines your product’s features and tells
+                            shoppers why they should buy it. A great
+                            product description indicates what the
+                            product is and what it does while enticing
+                            the reader to make a purchase.
+                        </p>
+                        <br/>
+                        <div class="pb-md-5">
+                            <a class="btn btn-white border border-dark details-btn" href="#">
+                                <p class=" mb-0 p-0" style="margin-top: 5px;"> Details Information </p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!--2nd column-->
-            <div class="col-sm-4 pt-4 px-3 py-3 border border-top-0 mx-0 shadow">
-                <div class=" mt-4 text-center">
-                    <img class="values-banner-img" src="image/chocolate_2.jpg">
-                </div>
-                <div class=" mt-4 text-center px-4 mx-3">
-                    <p style="text-align:center; font-size: 14px;">
-                        Product Description<br/><br/>
-                        Your product description, or product copy,
-                        outlines your product’s features and tells
-                        shoppers why they should buy it. A great
-                        product description indicates what the
-                        product is and what it does while enticing
-                        the reader to make a purchase.
-                    </p>
-                    <br/>
-                    <div class="pb-md-5">
-                        <a class="btn btn-white border border-dark details-btn" href="#">
-                            <p class=" mb-0 p-0" style="margin-top: 5px;"> Details Information </p>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-            <!--3rd column-->
-            <div class="col-sm-4 pt-4 px-3 py-3 shadow">
-                <div class=" mt-4 text-center">
-                    <img class="values-banner-img" src="image/chocolate_3.jpg">
-                </div>
-                <div class=" mt-4 text-center px-4 mx-3">
-                    <p style="text-align:center; font-size: 14px;">
-                        Product Description<br/><br/>
-                        Your product description, or product copy,
-                        outlines your product’s features and tells
-                        shoppers why they should buy it. A great
-                        product description indicates what the
-                        product is and what it does while enticing
-                        the reader to make a purchase.
-                    </p>
-                    <br/>
-                    <div class="pb-md-5">
-                        <a class="btn btn-white border border-dark details-btn" href="#">
-                            <p class=" mb-0 p-0" style="margin-top: 5px;"> Details Information </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
-
     </div>
 </section>
 <!--end of 3rd row what are our values section-->
@@ -2743,67 +2744,201 @@
 
 
 <!--footer section-->
-<footer>
-    <div class="container">
-        <div class="pull-right py-5">
-            <a href="" class="btn btn-white btn-lg border border-dark text-center py-3 become-vendor">Become a vendor</a>
+<div class="footer" style=" background-color: white;">
+
+    <!--main first row-->
+    <div class="row first-row align-items-end m-auto">
+        <div class="col-sm-9 d-none d-sm-block">
+
+        </div>
+        <div class="col-sm-3 text-center pe-4 " style="margin-block: 25px;">
+            <a class="btn btn-white border border-dark text-center align-middle pt-2" href="#" style="width: 160px; height: 40px; font-size: 13px;">
+                <div style="margin-top: 4px;">Become a vendor</div>
+            </a>
+        </div>
+
+    </div>
+    <!--main 2nd row-->
+    <div class="row second-row m-auto">
+        <div class="col-sm-2 text-center" style="margin-bottom: 10px;">
+            <img src="image/zcart-logo.jpeg" style="width: 170px; height:60px;object-fit: cover; object-position: center center;">
+        </div>
+
+        <div class="col-sm-8">
+            <div class="row mt-4 px-3 mx-0">
+                <div class="col text-center" style="min-width:120px ; margin-bottom:20px">
+                    <div class="row" >
+                        <p style="font-size: 13px;"><b>Demo Link 1</b></p>
+                    </div>
+
+                    <div class="row" >
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 1</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 2</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 3</a>
+                    </div>
+                </div>
+                <div class="col text-center" style="min-width:120px ; margin-bottom:20px">
+                    <div class="row">
+                        <p style="font-size: 13px;"><b>Demo Link 2</b></p>
+                    </div>
+
+                    <div class="row" >
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 1</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 2</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 3</a>
+                    </div>
+                </div>
+                <div class="col text-center" style="min-width:120px ; margin-bottom:20px">
+
+                    <div class="row">
+                        <p style="font-size: 13px;"><b>Demo Link 3</b></p>
+                    </div>
+
+                    <div class="row" >
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 1</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 2</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 3</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 4</a>
+                    </div>
+
+                </div>
+                <div class="col text-center" style="min-width:120px ; margin-bottom:20px">
+                    <div class="row">
+                        <p style="font-size: 13px;"><b>Demo Link 4</b></p>
+                    </div>
+                    <div class="row" >
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 1</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 2</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 3</a>
+                    </div>
+                </div>
+                <div class="col text-center" style="min-width:120px ; margin-bottom:20px">
+
+                    <div class="row">
+                        <p style="font-size: 13px;"><b>Demo Link 5</b></p>
+                    </div>
+
+
+                    <div class="row" >
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 1</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 2</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 3</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 4</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 5</a>
+                    </div>
+                </div>
+                <div class="col text-center" style="min-width:120px ; margin-bottom:20px">
+                    <div class="row">
+                        <p style="font-size: 13px;"><b>Demo Link 6</b></p>
+                    </div>
+                    <div class="row" >
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 1</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 2</a>
+                    </div>
+                    <div class="row">
+                        <a class="text-decoration-none footerSubBtn" href="#">Sub Demo 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2 d-none d-sm-block">
+
         </div>
     </div>
-    <div class="container pb-5">
-       <div class="row pb-5">
-           <div class="col-md-3">
-               <div class="">
-                    <ul class="list" style="list-style: none">
-                        <li class="pb-2"><a href="#" class="footer-list "  style="font-size: 16px; font-weight: bold">Collection</a></li>
-                        <li><a href="#" class="footer-list">Bedroom</a></li>
-                        <li><a href="#" class="footer-list">Dining Room</a></li>
-                        <li><a href="#" class="footer-list">Living Room</a></li>
-                        <li><a href="#" class="footer-list">Kids Furniture</a></li>
-                        <li><a href="#" class="footer-list">Office</a></li>
-                    </ul>
-               </div>
-           </div>
-           <div class="col-md-3">
-               <div class="">
-                    <ul class="list" style="list-style: none">
-                        <li class="pb-2"><a href="#" class="footer-list "  style="font-size: 16px; font-weight: bold">Navigate</a></li>
-                        <li><a href="#" class="footer-list">Search</a></li>
-                        <li><a href="#" class="footer-list">Journal</a></li>
-                        <li><a href="#" class="footer-list">Our Story</a></li>
-                        <li><a href="#" class="footer-list">Contact Us</a></li>
-                        <li><a href="#" class="footer-list">Theme Features</a></li>
-                    </ul>
-               </div>
-           </div>
-           <div class="col-md-3">
-               <div class="">
-                    <ul class="list" style="list-style: none">
-                        <li class="pb-2"><a href="#" class="footer-list "  style="font-size: 16px; font-weight: bold">Information</a></li>
-                        <li><a href="#" class="footer-list">How to pay</a></li>
-                        <li><a href="#" class="footer-list">Shipping & Pickups</a></li>
-                        <li><a href="#" class="footer-list">Returns & Warrenty</a></li>
-                        <li><a href="#" class="footer-list">Terms & Conditions</a></li>
-                        <li><a href="#" class="footer-list">Privecy Polycy</a></li>
-                    </ul>
-               </div>
-           </div>
-           <div class="col-md-3">
-               <div class="">
-                   <h5>Follow Us</h5>
-                   <ul class="social-handle pt-1">
-                       <li style="padding-left: 0"><a href="" class=""><i class="fa fa-facebook"></i></a></li>
-                       <li><a href="" class=""><i class="fa fa-twitter"></i></a></li>
-                       <li><a href="" class=""><i class="fa fa-linkedin"></i></a></li>
-                       <li><a href="" class=""><i class="fa fa-instagram"></i></a></li>
-                       <li><a href="" class=""><i class="fa fa-whatsapp"></i></a></li>
-                   </ul>
-                   <h5 style="margin-top: 25px; color: gray">Copyright © XXX Ltd</h5>
-                   <p>Powered by Incevio Cor.</p>
-               </div>
-           </div>
-       </div>
+
+    <!--main 3rd row-->
+    <div class="row third-row m-auto">
+        <div class="col social-media-logo text-end" style="padding-right:60px ;">
+            <a href="#"><i class="fa fa-globe fa-3x navIconBtn " aria-hidden="true"></i></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <a href="#"><i class="fa fa-instagram fa-3x navIconBtn " aria-hidden="true"></i></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <a href="#"><i class="fa fa-linkedin fa-3x navIconBtn" aria-hidden="true"></i></a>
+        </div>
     </div>
-</footer>
+
+
+    <!--4th row-->
+    <div class="row fourth-row">
+        <div class="col-sm-9 footer-txt">
+            <p class="text-start" style="font-size: 13px; text-align:justify; padding-inline: 40px;">
+                An e-commerce website is one that allows people to buy and
+                sell physical goods, services, and digital products over the
+                internet rather than at a brick-and-mortar location. Through
+                an e-commerce website, a business can process orders, accept
+                payments, manage shipping and logistics, and provide customer service.
+            </p>
+        </div>
+
+        <div class="col-sm-3" style="min-width: 200px;">
+            <div class="row mb-5">
+                <div class="col circle-container">
+                    <div class="circle text-end">
+                        <img src="image/brand_1.png" class="footer-img">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="circle">
+                        <img src="image/brand_2.png" class="footer-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col">
+                    <div class=" circle">
+                        <img src="image/brand_3.png" class="footer-img">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="circle">
+                        <img src="image/brand_4.png" class="footer-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of 4th row-->
+
+
+    <!--fifth row-->
+    <div class="row" style="padding-inline: 80px; margin-top: 10px; margin-bottom: 10px; font-family: Source Sans Pro,sans-serif;">
+        <hr/>
+        <p class="text-center" style="font-size: 12px;">
+            © 2022. All Rights Received.
+        </p>
+    </div>
+    <!--end fifth row-->
+
+
+</div>
 <!--end of footer-->
 
 <script src="assets/js/jquery-3.6.3.js"></script>
@@ -3512,6 +3647,7 @@
         color: black;
         font-size: 12px;
         font-weight: 400;
+        padding: 4px 0;
 
     }
     .footerSubBtn:hover{
