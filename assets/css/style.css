@@ -110,6 +110,31 @@
     border-radius: 1.3rem !important;
 
 }
+.wishlist-img{
+    max-height: 170px;
+    min-width: 170px;
+}
+.wishlisty-body-main{
+    background: #e9e9e9;
+}
+.bg-custom{
+    background: #e9e9e9;
+}
+.wishlist-content{
+
+}
+.height-100{
+    height: 40px;
+}
+.width-100{
+    width: 40px;
+}
+.wishlit-pagination{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bolder;
+}
 .blog-asertp{
     font-size: 15px;
     text-align: justify;
